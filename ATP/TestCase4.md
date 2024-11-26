@@ -6,4 +6,5 @@ Test Case 4: Menu Navigation
     Start the game.
     Navigate through the main menu options (Start Game, Options, Quit).
     Verify that each option is selectable and leads to the expected actions.
-    Expected Outcome: The main menu should allow the player to navigate through options and select them.
+
+- Expected Outcome: The main menu should allow the player to navigate through options and select them.
