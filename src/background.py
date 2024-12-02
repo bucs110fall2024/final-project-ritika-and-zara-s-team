@@ -1,10 +1,10 @@
 import pygame
 
 class Background:
-    def __init__(self, __):
+    def __init__(self, _file_):
         """
         Initializes the ship object
-        args:
+        args: 
         """
     
     def add_cloud(self):

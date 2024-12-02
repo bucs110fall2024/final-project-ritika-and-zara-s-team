@@ -1,4 +1,6 @@
 import pygame
+import pygame.menu
+
 def mainloop(self):
    """
    docstring
