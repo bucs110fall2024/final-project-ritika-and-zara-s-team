@@ -6,11 +6,19 @@ class Obstacle:
         Initializes the obstacle object
         args:
         """
+        self.x = x
+        self.y = y
+        self.width = width
+        self.height = height
+        self.rect = pygame.Rect(self.x, self.y, self.width, self.height)
+        self.image = pygame.Surface((self.width, self.height))
+        self.image.fill(GREEN)
+
     
-    def add_block(self):
+    def draw(self):
         """
-        Adds more blocks as obstacles
         """
+        screen.blit(self.image, (self.rect.x, self.rect.y))
     
     def change_color(self):
         """
