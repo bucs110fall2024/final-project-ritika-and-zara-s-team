@@ -1,6 +1,12 @@
 import pygame
 import pygame.menu
 
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+GRAVITY = 1
+JUMP_STRENGTH = 20
+FPS = 60
+
 def mainloop(self):
    """
    docstring

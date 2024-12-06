@@ -1,16 +1,21 @@
 import pygame
+import random
+
+screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+pygame.display.set_caption("Lazer Battle")
 
 class Background:
-    def __init__(self, _file_):
+    def __init__(self, color):
         """
-        Initializes the ship object
-        args: 
+        Initializes the background 
         """
+        self.color = color
     
-    def add_cloud(self):
+    def draw(self):
         """
         Adds more clouds to make it look like screen is moving 
         """
+        screen.fill(self.color)
     
     def add_ground(self):
         """
